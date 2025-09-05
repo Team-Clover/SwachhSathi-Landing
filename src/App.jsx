@@ -1,6 +1,12 @@
 import Hero from "./components/hero";
 import About from "./components/About";
 import GooeyNav from "./components/GooeyNav";
+import Features from "./components/Features";
+import Impact from "./components/Impact";
+import AppPreview from "./components/AppPreview";
+import WasteGallery from "./components/WasteGallery";
+import Footer from "./components/Footer";
+
 
 function App() {
   const navItems = [
@@ -18,6 +24,11 @@ function App() {
       </div>
       <Hero />
       <About />
+      <Features/>
+      <Impact/>
+      <AppPreview/>
+     <WasteGallery/>
+     <Footer/>
     </div>
   );
 }
