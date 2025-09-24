@@ -10,7 +10,7 @@ import {
   Star,
   Globe,
 } from "lucide-react";
-import CountUp from "./CountUp";
+import CountUp from "./CountUp.jsx";
 
 const Impact = () => {
   return (

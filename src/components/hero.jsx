@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 import React from "react";
 import GooeyNav from "./GooeyNav";
-import Beams from "./Beams"; // 👈 shader beams background
-import ShinyText from "./ShinyText"; // 👈 Import shiny text
+import Beams from "./Beams.jsx"; // 👈 shader beams background
+import ShinyText from "./ShinyText.jsx"; // 👈 Import shiny text
 import { Download } from "lucide-react"; // 👈 Download icon
 
 const Hero = () => {

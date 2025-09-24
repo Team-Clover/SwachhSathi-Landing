@@ -1,11 +1,11 @@
-import Hero from "./components/hero";
-import About from "./components/About";
-import GooeyNav from "./components/GooeyNav";
-import Features from "./components/Features";
-import Impact from "./components/Impact";
-import AppPreview from "./components/AppPreview";
-import WasteGallery from "./components/WasteGallery";
-import Footer from "./components/Footer";
+import Hero from "./components/hero.jsx";
+import About from "./components/About.jsx";
+import GooeyNav from "./components/GooeyNav.jsx";
+import Features from "./components/features.jsx";
+import Impact from "./components/Impact.jsx";
+import AppPreview from "./components/AppPreview.jsx";
+import WasteGallery from "./components/WasteGallery.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {

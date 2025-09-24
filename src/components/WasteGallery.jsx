@@ -1,4 +1,4 @@
-import Masonry from "./Masonry";
+import Masonry from "./Masonry.jsx";
 
 const WasteGallery = () => {
   const items = [
