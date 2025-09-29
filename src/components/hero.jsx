@@ -42,9 +42,11 @@ const Hero = () => {
         {/* Sleek Black & White Button */}
         <div className="mt-10">
           <a
-            href="#download"
+            href="/app.apk"
+            download
             className="relative inline-flex items-center gap-2 px-5 py-2 text-sm md:text-base font-semibold text-white rounded-full overflow-hidden group"
           >
+
             {/* Black & White Glow Background */}
             <span className="absolute inset-0 bg-gradient-to-r from-black via-gray-800 to-white animate-gradient-x blur-lg opacity-40 group-hover:opacity-70 transition"></span>
 
