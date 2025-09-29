@@ -28,6 +28,7 @@ const Hero = () => {
       <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20">
         <GooeyNav items={navItems} />
       </div>
+
       {/* Scrollable Content Wrapper */}
       <div className="relative z-20 flex flex-col items-center justify-center min-h-screen text-center text-white px-6 overflow-y-auto">
         <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
@@ -42,11 +43,11 @@ const Hero = () => {
         {/* Sleek Black & White Button */}
         <div className="mt-10">
           <a
-            href="/app.apk"
-            download
+            href="https://expo.dev/accounts/aditya_7/projects/ssdemo/builds/a636e517-ad84-4c35-aae4-7acdc39e455d"
+            target="_blank"   // 👈 opens in new tab
+            rel="noopener noreferrer" // 👈 security best practice
             className="relative inline-flex items-center gap-2 px-5 py-2 text-sm md:text-base font-semibold text-white rounded-full overflow-hidden group"
           >
-
             {/* Black & White Glow Background */}
             <span className="absolute inset-0 bg-gradient-to-r from-black via-gray-800 to-white animate-gradient-x blur-lg opacity-40 group-hover:opacity-70 transition"></span>
 
